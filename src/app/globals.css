@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #161616 !important;
+}
+
+.main {
+  position: relative;
+  padding-bottom: 200px; /* Add space for the payment card on mobile */
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-bottom: 0; /* Reset for desktop */
+  }
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
