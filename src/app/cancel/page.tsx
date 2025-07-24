@@ -1,3 +1,5 @@
+
+'use client';
 import Link from 'next/link';
 import { XCircle, RefreshCw, Home, HelpCircle } from 'lucide-react';
 
